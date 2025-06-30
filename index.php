@@ -131,10 +131,10 @@ require(CLIENTINC_DIR . 'header.inc.php');
                         <div style="font-size: 1rem; color: #333; margin: 0; font-weight: 400; line-height: 1.2;">Sri Anumula Revanth Reddy</div>
                     </div>
                 </div>
-
                 <div style="display: flex; align-items: center; gap: 10px; background: #ffffff; padding: 0.25rem 0.5rem; padding-right: 5rem; border-radius: 40px; border: 1px solid #d8b167; white-space: nowrap;" class="minister_card it_card">
                     <div style="width: 72px; height: 72px; border-radius: 50%; overflow: hidden; border: 2px solid #d8b167; flex-shrink: 0;" class="minister_img_wrapper">
                         <img src="/osTicket/assets/default/images/itmin.svg" style="width: 100%; height: 100%; object-fit: cover;">
+
                     </div>
                     <div class="minister_text">
                         <div style="font-size: 1rem; color: #000; font-weight: 700; margin: 0 0 2px 0; line-height: 1;">Hon'ble IT Minister</div>
@@ -151,6 +151,7 @@ require(CLIENTINC_DIR . 'header.inc.php');
         <div style="display: flex; align-items: center; justify-content: center; gap: 12px; min-width: 300px; margin-top: 5px; padding-top: 1rem;" class="tgdex_wrapper">
             <img src="/osTicket/assets/default/images/logo.png" style="height: 46px;">
             <div style="font-size: 52px; color: #212529; font-weight: 400; margin-left: 5px; padding-bottom: 0.6rem" class="tgdex_text">Telangana Data Exchange</div>
+
         </div>
 
     </div>
