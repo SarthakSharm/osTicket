@@ -85,6 +85,9 @@ if (($lang = Internationalization::getCurrentLanguage())) {
         <script type="text/javascript" src="<?php echo ROOT_PATH; ?>js/redactor-plugins.js"></script>
         <script type="text/javascript" src="<?php echo ROOT_PATH; ?>js/redactor-osticket.js"></script>
         <script type="text/javascript" src="<?php echo ROOT_PATH; ?>js/select2.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <?php
         if ($ost && ($headers = $ost->getExtraHeaders())) {
             echo "\n\t" . implode("\n\t", $headers) . "\n";

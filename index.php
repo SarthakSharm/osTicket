@@ -145,7 +145,7 @@ require(CLIENTINC_DIR . 'header.inc.php');
 
         <div style="display: flex; align-items: center; justify-content: center; gap: 12px; min-width: 300px; margin-top: 2rem; padding-top: 1rem;" class="tgdex_wrapper">
             <img src="../assets/default/images/logo.png" style="height: 36px;">
-            <div style="font-size: 36px; color: #212529; font-weight: 400; margin-left: 5px; padding-bottom: 0.6rem;" class="tgdex_text">Telangana Data Exchange</div>
+            <div style="font-size: 36px; color: #212529; font-weight: 400; margin-left: 5px; padding-bottom: 0.6rem;" class="tgdex_text">Forest Stack</div>
         </div>
 
     </div>
