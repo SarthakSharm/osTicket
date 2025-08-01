@@ -51,8 +51,8 @@
                     <!-- <div style="color: #00b359; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;">TGDeX</div> -->
                 </div>
 
-                <p style="color: #4b5563; font-size: 15px; line-height: 1.6; margin-bottom: 2.5rem; font-weight: 400;">
-                    The Telangana Data Exchange platform offers access to curated data banks, pre-trained AI models, and use cases — all in one place to empower secure data exchange and support development of AI-driven solutions.
+                <p style="color: #3f6212; font-size: 15px; line-height: 1.6; margin-bottom: 2.5rem; font-weight: 400;">
+                    The Rajasthan Forest Stack platform offers access to curated data banks, pre-trained AI models, and use cases all in one place to empower secure data exchange and support development of AI-driven solutions.
                 </p>
 
                 <!-- Social Media Section -->
@@ -69,13 +69,13 @@
 
             <!-- TGDeX Links -->
             <div>
-                <h3 style="color: #00b359; font-size: 25px; font-weight: 200; margin-bottom: 1.5rem; letter-spacing: -0.3px;">TGDeX</h3>
+                <h3 style="color: #00b359; font-size: 25px; font-weight: 200; margin-bottom: 1.5rem; letter-spacing: -0.3px;">Forest Stack</h3>
                 <ul style="list-style: none; padding: 0; margin: 0;">
                     <li style="margin-bottom: 0.75rem;">
                         <a href="https://tgdex.telangana.gov.in/" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Home</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/about-us" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">About TGDeX</a>
+                        <a href="https://tgdex.telangana.gov.in/about-us" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">About Forest Stack</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
                         <a href="https://helpdesk.tgdex.telangana.gov.in/" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Contact Us</a>
