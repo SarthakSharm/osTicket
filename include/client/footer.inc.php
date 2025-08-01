@@ -35,7 +35,7 @@
      <div style="
   position: relative;left: 50%;right: 50%;margin-left: -50vw;margin-right: -50vw;width: 100vw;background: #f1f1f1;">
   <img style="width: 100vw;margin-left: calc(-50vw + 50%);overflow: hidden;background:#fff;" src="<?php echo ROOT_PATH ?>assets/default/images/footer-image.png" alt="Footer" />
-    <footer style="background: #1A2E05; padding: 2rem 2rem 1rem; border-top: 1px solid #e5e7eb; font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+    <footer style="background: #1A2E05; padding: 2rem 2rem 1rem; font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
         <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; align-items: start;">
 
             <!-- Logo & Description -->
