@@ -85,6 +85,9 @@ if (($lang = Internationalization::getCurrentLanguage())) {
         <script type="text/javascript" src="<?php echo ROOT_PATH; ?>js/redactor-plugins.js"></script>
         <script type="text/javascript" src="<?php echo ROOT_PATH; ?>js/redactor-osticket.js"></script>
         <script type="text/javascript" src="<?php echo ROOT_PATH; ?>js/select2.min.js"></script>
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+</style>
         <?php
         if ($ost && ($headers = $ost->getExtraHeaders())) {
             echo "\n\t" . implode("\n\t", $headers) . "\n";
@@ -186,7 +189,7 @@ if (($lang = Internationalization::getCurrentLanguage())) {
                             } elseif ($nav) {
                                 if ($cfg->getClientRegistrationMode() != 'disabled') {
                             ?>
-                                    <a href="<?php echo $signin_url; ?>" class="signin_btn_header"><?php echo __('SIGN IN'); ?></a>
+                                    <a style="color: #4d7c0f;" href="<?php echo $signin_url; ?>" class="signin_btn_header"><?php echo __('SIGN IN'); ?></a>
                                 <?php
                                 }
 
@@ -221,11 +224,19 @@ if (($lang = Internationalization::getCurrentLanguage())) {
                     </div>
                 </div>
                 <div class="logo_container_header">
-                    <a class="pull-left" style="" id="logo" href="https://tgdex.telangana.gov.in/" title="<?php echo __('Support Center'); ?>">
+                    <!-- <a class="pull-left" style="" id="logo" href="https://tgdex.telangana.gov.in/" title="<?php echo __('Support Center'); ?>">
                         <span class="valign-helper"></span>
-                        <img src="../assets/default/images/TelenganaGovt-logo.svg" class="tg_govt_header">
-                    </a>
-                    <span class="tg_short_logo_header">
+                        <img src="../assets/default/images/forest-logo.svg" class="tg_govt_header">
+                    </a> -->
+                    <a class="pull-left" id="logo" href="https://dev.catalogue.forest.iudx.io/" title="<?php echo __('Support Center'); ?>">
+                            <span class="valign-helper"></span>
+                            <img src="<?php echo ROOT_PATH ?>assets/default/images/forest-logo.svg" class="tg_govt_header">
+                        </a>
+                        <div class="logo_title">
+                            <p style="font-weight:700" class="logo_title_name">Forest Stack</p>
+                            <p style="font-weight:500" class="logo_title_department">Rajasthan</p>
+                        </div>
+                    <!-- <span class="tg_short_logo_header">
                         <a class="pull-left" style="" id="logo" href="https://tgdex.telangana.gov.in/" title="<?php echo __('Support Center'); ?>">
                             <span class="valign-helper"></span>
                             <img src="../assets/default/images/tgdex_short_logo_Green.svg">
@@ -237,7 +248,7 @@ if (($lang = Internationalization::getCurrentLanguage())) {
                             <span class="valign-helper"></span>
                             <img src="<?php echo ROOT_PATH; ?>logo.php" border=0 alt="<?php echo $ost->getConfig()->getTitle(); ?>">
                         </a>
-                    </span>
+                    </span> -->
 
                 </div>
 

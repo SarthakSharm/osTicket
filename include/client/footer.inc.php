@@ -39,7 +39,15 @@
             <div style="min-width: 280px;">
                 <!-- Logo with geometric design -->
                 <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-                    <img src="assets/default/images/logo.png" alt="TGDeX Logo" style="height: 36px; margin-right: 12px;">
+                    <!-- <img src="assets/default/images/logo.png" alt="TGDeX Logo" style="height: 36px; margin-right: 12px;"> -->
+                     <a class="pull-left" id="logo" href="https://dev.catalogue.forest.iudx.io/" title="<?php echo __('Support Center'); ?>">
+                            <!-- <span class="valign-helper"></span> -->
+                            <img src="<?php echo ROOT_PATH ?>assets/default/images/forest-logo.svg" class="tg_govt_header">
+                        </a>
+                        <div class="logo_title">
+                            <p style="font-weight:700" class="logo_title_name">Forest Stack</p>
+                            <p style="font-weight:500" class="logo_title_department">Rajasthan</p>
+                        </div>
                     <!-- <div style="color: #00b359; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;">TGDeX</div> -->
                 </div>
 
