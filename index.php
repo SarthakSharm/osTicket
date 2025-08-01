@@ -113,10 +113,10 @@ require(CLIENTINC_DIR . 'header.inc.php');
 
     <div style="max-width: 100%; display: flex; flex-direction: column; gap: 15px;">
 
-        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;" class="top_icons_wrapper">
+        <!-- <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;" class="top_icons_wrapper"> -->
 
             <!-- Chief Minister Card - Left Side -->
-            <div style="display: flex; align-items: center; gap: 10px; background: #ffffff; padding: 0.25rem 0.5rem; padding-right: 1.5rem; border-radius: 40px; border: 1px solid #d8b167; white-space: nowrap; margin-left: 1rem" class="minister_card cm_card">
+            <!-- <div style="display: flex; align-items: center; gap: 10px; background: #ffffff; padding: 0.25rem 0.5rem; padding-right: 1.5rem; border-radius: 40px; border: 1px solid #d8b167; white-space: nowrap; margin-left: 1rem" class="minister_card cm_card">
                 <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; flex-shrink: 0;" class="minister_img_wrapper">
                     <img src="../assets/default/images/honcm.svg" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
@@ -124,10 +124,10 @@ require(CLIENTINC_DIR . 'header.inc.php');
                     <div style="font-size: 13px; color: #000; font-weight: 700; margin: 0 0 2px 0; line-height: 1; padding-bottom: 0.25rem;font-family: sans-serif">Sri Anumula Revanth Reddy</div>
                     <div style="font-size: 13px; color: #333; margin: 0; font-weight: 400; line-height: 1.2;">Hon'ble Chief Minister</div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- IT Minister Card - Right Side -->
-            <div style="display: flex; align-items: center; gap: 10px; background: #ffffff; padding: 0.25rem 0.5rem; padding-right: 0.5rem; border-radius: 40px; border: 1px solid #d8b167;" class="minister_card it_card">
+            <!-- <div style="display: flex; align-items: center; gap: 10px; background: #ffffff; padding: 0.25rem 0.5rem; padding-right: 0.5rem; border-radius: 40px; border: 1px solid #d8b167;" class="minister_card it_card">
                 <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; flex-shrink: 0;" class="minister_img_wrapper">
                     <img src="../assets/default/images/itmin.svg" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
@@ -139,13 +139,21 @@ require(CLIENTINC_DIR . 'header.inc.php');
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-        </div>
+        <!-- </div> -->
 
         <div style="display: flex; align-items: center; justify-content: center; gap: 12px; min-width: 300px; margin-top: 2rem; padding-top: 1rem;" class="tgdex_wrapper">
-            <img src="../assets/default/images/logo.png" style="height: 36px;">
-            <div style="font-size: 36px; color: #212529; font-weight: 400; margin-left: 5px; padding-bottom: 0.6rem;" class="tgdex_text">Telangana Data Exchange</div>
+            <!-- <img src="../assets/default/images/logo.png" style="height: 36px;"> -->
+            <a class="pull-left" id="logo" href="https://dev.catalogue.forest.iudx.io/" title="<?php echo __('Support Center'); ?>">
+                            <span class="valign-helper"></span>
+                            <img style="height: 4rem !important;"src="<?php echo ROOT_PATH ?>assets/default/images/forest-logo.svg" class="tg_govt_header" >
+                        </a>
+                        <!-- <div class="logo_title">
+                            <p style="font-weight:700" class="logo_title_name">Forest Stack</p>
+                            <p style="font-weight:500" class="logo_title_department">Rajasthan</p>
+                        </div> -->
+            <div style="font-size: 48px; color: #1a2e05;font-family: 'Caladea, serif !important';font-weight: 700; margin-left: 5px; padding-bottom: 0.6rem;" class="tgdex_text">Forest Stack | Rajasthan</div>
         </div>
 
     </div>
@@ -168,12 +176,12 @@ require(CLIENTINC_DIR . 'header.inc.php');
                 </form>
             </div>
         <?php } ?>
-        <div class="thread-body">
+        <div class="thread-body" >
             <?php
             if ($cfg && ($page = $cfg->getLandingPage()))
                 echo $page->getBodyWithImages();
             else
-                echo  '<h1>' . __('Welcome to the Support Center') . '</h1>';
+                echo  '<h1 >' . __('Welcome to the Support Center') . '</h1>';
             ?>
         </div>
     </div>

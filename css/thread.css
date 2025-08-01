@@ -26,7 +26,7 @@
   margin-bottom: 1em;
 }
 .thread-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 14px !important;
   line-height: 1.428571429;
   color: #333333;
@@ -215,6 +215,7 @@
 .thread-body h1,
 .thread-body .h1 {
   font-size: 30px;
+  font-weight: 700;
 }
 .thread-body h2,
 .thread-body .h2 {

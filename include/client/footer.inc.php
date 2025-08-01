@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TGDeX Footer</title>
+    <title>Forest Stack Footer</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -14,7 +14,7 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
         }
 
@@ -30,26 +30,37 @@
 </head>
 
 <body>
-
+</div>
     <!-- TGDeX Footer -->
-    <footer style="background: #ffffff; padding: 2rem 2rem 1rem; border-top: 1px solid #e5e7eb; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+     <div style="
+  position: relative;left: 50%;right: 50%;margin-left: -50vw;margin-right: -50vw;width: 100vw;background: #f1f1f1;">
+  <img style="width: 100vw;margin-left: calc(-50vw + 50%);overflow: hidden;background:#fff;" src="<?php echo ROOT_PATH ?>assets/default/images/footer-image.png" alt="Footer" />
+    <footer style="background: #1A2E05; padding: 2rem 2rem 1rem; font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
         <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; align-items: start;">
 
             <!-- Logo & Description -->
             <div style="min-width: 280px;">
                 <!-- Logo with geometric design -->
-                <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-                    <img src="assets/default/images/logo.png" alt="TGDeX Logo" style="height: 36px; margin-right: 12px;">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;font-size:16px;">
+                    <!-- <img src="assets/default/images/logo.png" alt="TGDeX Logo" style="height: 36px; margin-right: 12px;"> -->
+                     <!-- <a class="pull-left" id="logo" href="https://dev.catalogue.forest.iudx.io/" title="<?php echo __('Support Center'); ?>">
+                            <!-- <span class="valign-helper"></span>
+                            <img src="<?php echo ROOT_PATH ?>assets/default/images/forest-logo.svg" class="tg_govt_header">
+                        </a> -->
+                        <div class="logo_title">
+                            <p style="font-weight:700;color:#a3e635;font-family:'caladea';" class="">Forest Stack | Rajasthan</p>
+                            <!-- <p style="font-weight:500" class=""></p> -->
+                        </div>
                     <!-- <div style="color: #00b359; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;">TGDeX</div> -->
                 </div>
 
-                <p style="color: #4b5563; font-size: 15px; line-height: 1.6; margin-bottom: 2.5rem; font-weight: 400;">
-                    The Telangana Data Exchange platform offers access to curated data banks, pre-trained AI models, and use cases — all in one place to empower secure data exchange and support development of AI-driven solutions.
+                <p style="color: #fff; font-size: 14px; line-height: 1.6; margin-bottom: 2.5rem; font-weight: 400;">
+                    The Rajasthan Forest Stack platform offers access to curated data banks, pre-trained AI models, and use cases all in one place to empower secure data exchange and support development of AI-driven solutions.
                 </p>
 
                 <!-- Social Media Section -->
                 <div>
-                    <h3 style="color: #00b359; font-size: 20px; font-weight: 450; margin-bottom: 1rem; letter-spacing: -0.3px;">Social Media</h3>
+                    <h3 style="color: #a3e635; font-size: 16px;font-family:'caladea'; font-weight: 500; margin-bottom: 1rem; letter-spacing: -0.3px;">Social Media</h3>
                     <div style="display: flex; gap: 2rem;">
                         <a href="https://www.facebook.com/etgots/"><img src="assets/default/images/icons/meta-icon.png" alt="Meta" style="width:22px; height: 22px;"></a>
                         <a href="https://x.com/emergingtechts"><img src="assets/default/images/icons/twitter-icon.png" alt="X" style="width: 18px; height: 18px;"></a>
@@ -61,60 +72,60 @@
 
             <!-- TGDeX Links -->
             <div>
-                <h3 style="color: #00b359; font-size: 25px; font-weight: 200; margin-bottom: 1.5rem; letter-spacing: -0.3px;">TGDeX</h3>
+                <h3 style="color: #a3e635;font-size: 16px;font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.3px;font-family:'caladea';">Forest Stack</h3>
                 <ul style="list-style: none; padding: 0; margin: 0;">
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Home</a>
+                        <a href="https://tgdex.telangana.gov.in/" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Home</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/about-us" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">About TGDeX</a>
+                        <a href="https://tgdex.telangana.gov.in/about-us" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">About Forest Stack</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://helpdesk.tgdex.telangana.gov.in/" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Contact Us</a>
+                        <a href="https://helpdesk.tgdex.telangana.gov.in/" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Contact Us</a>
                     </li>
                 </ul>
             </div>
 
             <!-- Platform Features -->
             <div>
-                <h3 style="color: #00b359; font-size: 25px; font-weight: 200; margin-bottom: 1.5rem; letter-spacing: -0.3px;">Platform Features</h3>
+                <h3 style="color: #a3e635;font-size: 16px;font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.3px;font-family:'caladea';">Platform Features</h3>
                 <ul style="list-style: none; padding: 0; margin: 0;">
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/data-bank" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Data Banks</a>
+                        <a href="https://tgdex.telangana.gov.in/data-bank" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Data Banks</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/ai-model" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">AI Models</a>
+                        <a href="https://tgdex.telangana.gov.in/ai-model" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">AI Models</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/potential-application" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Use Cases</a>
+                        <a href="https://tgdex.telangana.gov.in/potential-application" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Use Cases</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/sandbox" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Sandbox IDE</a>
+                        <a href="https://tgdex.telangana.gov.in/sandbox" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Sandbox IDE</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/toolsets" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Toolsets</a>
+                        <a href="https://tgdex.telangana.gov.in/toolsets" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Toolsets</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/library" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Library</a>
+                        <a href="https://tgdex.telangana.gov.in/library" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Library</a>
                     </li>
                 </ul>
             </div>
 
             <!-- Help & Support -->
             <div>
-                <h3 style="color: #00b359; font-size: 25px; font-weight: 200; margin-bottom: 1.5rem; letter-spacing: -0.3px;">Help & Support</h3>
+                <h3 style="color: #a3e635;font-size: 16px;font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.3px;font-family:'caladea';">Help & Support</h3>
                 <ul style="list-style: none; padding: 0; margin: 0;">
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://helpdesk.tgdex.telangana.gov.in/" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Help & Support</a>
+                        <a href="https://helpdesk.tgdex.telangana.gov.in/" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Help & Support</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/faq" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">FAQs</a>
+                        <a href="https://tgdex.telangana.gov.in/faq" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">FAQs</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://docs.tgdex.telangana.gov.in/" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">User Manual</a>
+                        <a href="https://docs.tgdex.telangana.gov.in/" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">User Manual</a>
                     </li>
                     <li style="margin-bottom: 0.75rem;">
-                        <a href="https://tgdex.telangana.gov.in/sitemap" style="color: #374151; text-decoration: none; font-size: 16px; font-weight: 400; transition: color 0.2s;" onmouseover="this.style.color='#00b359'" onmouseout="this.style.color='#374151'">Sitemap</a>
+                        <a href="https://tgdex.telangana.gov.in/sitemap" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Sitemap</a>
                     </li>
                 </ul>
             </div>
@@ -180,12 +191,12 @@
         </div>
 
         <!-- Bottom Section -->
-        <div style="border-top: 1px solid #e5e7eb;">
-            <!-- Light section with Powered by and links -->
+        <!-- <div style="border-top: 1px solid #e5e7eb;">
+            // Light section with Powered by and links
             <div class="bottom-powered-section" style="display: flex; justify-content: space-between; align-items: center; background:rgb(255, 255, 255); padding-left: 4rem; padding-right: 4rem;">
                 <div class="powered-by-container" style="display: flex; align-items: center;">
                     <span style="color: #6b7280; font-size: 14px; margin-right: 1rem;">Powered by :</span>
-                    <!-- <a href="https://your-site.com" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none;"> -->
+                    <!-- <a href="https://your-site.com" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none;"> 
                     <img src="assets/default/images/et-logo.png" alt="Your Logo" style="height:75px; vertical-align: middle; padding: 1rem 0rem 1rem 0rem;">
                     </a>
                 </div>
@@ -196,20 +207,20 @@
                 </div>
             </div>
 
-            <!-- Dark copyright section -->
+            <!-- Dark copyright section 
             <div class="copyright-section" style="background:rgb(33, 45, 63); color: #ffffff; padding: 0.5rem 0; padding-left: 2rem; padding-right: 2rem; text-align: left;">
                 <span style="font-size: 13px;">© Government of Telangana</span>
             </div>
-        </div>
+        </div> -->
 
     </footer>
-    </footer>
+    </div>
 </body>
 
 </html>
 <!-- Custom Footer End -->
 
-</div>
+
 </div>
 
 <div id="overlay"></div>

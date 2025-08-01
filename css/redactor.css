@@ -197,7 +197,8 @@
 
 .redactor-focus.redactor-styles-on,
 .redactor-focus:focus.redactor-styles-on {
-  border-color: #82b7ec !important; }
+  border: solid 1px #3f6212 !important; }
+
 
 .redactor-over:hover.redactor-styles-on {
   border-color: #ee698a !important; }
