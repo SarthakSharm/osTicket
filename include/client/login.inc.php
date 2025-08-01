@@ -26,10 +26,10 @@ if ($content) {
             <div>
                 <input id="username"
                     style="  
-    font-family: Helvetica Neue, sans-serif;
+    font-family: DM Sans, sans-serif;
     color: #000;
-    padding: 0.5rem;
-    border-radius: 999px;
+    padding: 14px 16px;
+    border-radius: 999px;width: 292px;
    "
                     placeholder="<?php echo __('Email or Username'); ?>" type="text" name="luser" size="30" value="<?php echo $email; ?>" class="nowarn">
             </div>
@@ -38,7 +38,7 @@ if ($content) {
                     style="  
     font-family: Helvetica Neue, sans-serif;
     color: #000;
-    padding: 0.5rem;
+    padding: 14px 16px;
     border-radius: 999px;
    "
                     placeholder="<?php echo __('Password'); ?>" type="password" name="lpasswd" size="30" maxlength="128" value="<?php echo $passwd; ?>" class="nowarn"></td>
@@ -46,12 +46,12 @@ if ($content) {
             <p>
                 <input class="btn" type="submit"
                     style="  
-    font-family: Helvetica Neue, sans-serif;
-    color: #fff;
-    padding: 0.5rem;
+    font-family: DM Sans, sans-serif;
+    color: #fff !important;
+    padding: 10px 20px !important;
     border-radius: 999px;
-    background-color:#00a651;
-    width:10rem
+    background-color:#4d7c0f;
+    width:10rem;
    "
                     value="<?php echo __('Sign In'); ?>">
                 <?php if ($suggest_pwreset) { ?>
@@ -86,7 +86,7 @@ if ($content) {
     </div>
 </form>
 <br>
-<p>
+<p style="padding-bottom: 20px;">
     <?php
     if (
         $cfg->getClientRegistrationMode() != 'disabled'

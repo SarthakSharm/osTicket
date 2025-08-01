@@ -147,13 +147,13 @@ require(CLIENTINC_DIR . 'header.inc.php');
             <!-- <img src="../assets/default/images/logo.png" style="height: 36px;"> -->
             <a class="pull-left" id="logo" href="https://dev.catalogue.forest.iudx.io/" title="<?php echo __('Support Center'); ?>">
                             <span class="valign-helper"></span>
-                            <img src="<?php echo ROOT_PATH ?>assets/default/images/forest-logo.svg" class="tg_govt_header">
+                            <img style="height: 4rem !important;"src="<?php echo ROOT_PATH ?>assets/default/images/forest-logo.svg" class="tg_govt_header" >
                         </a>
                         <!-- <div class="logo_title">
                             <p style="font-weight:700" class="logo_title_name">Forest Stack</p>
                             <p style="font-weight:500" class="logo_title_department">Rajasthan</p>
                         </div> -->
-            <div style="font-size: 36px; color: #212529; font-weight: 400; margin-left: 5px; padding-bottom: 0.6rem;" class="tgdex_text">Telangana Data Exchange</div>
+            <div style="font-size: 48px; color: #1a2e05;font-family: 'Caladea, serif !important';font-weight: 700; margin-left: 5px; padding-bottom: 0.6rem;" class="tgdex_text">Forest Stack | Rajasthan</div>
         </div>
 
     </div>
@@ -176,12 +176,12 @@ require(CLIENTINC_DIR . 'header.inc.php');
                 </form>
             </div>
         <?php } ?>
-        <div class="thread-body">
+        <div class="thread-body" >
             <?php
             if ($cfg && ($page = $cfg->getLandingPage()))
                 echo $page->getBodyWithImages();
             else
-                echo  '<h1>' . __('Welcome to the Support Center') . '</h1>';
+                echo  '<h1 >' . __('Welcome to the Support Center') . '</h1>';
             ?>
         </div>
     </div>

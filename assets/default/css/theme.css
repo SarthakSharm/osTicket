@@ -117,6 +117,10 @@ textarea {
   margin: 0;
   vertical-align: baseline;
   vertical-align: middle;
+  color: #3f6212b3 !important;;
+  border: 1px solid #3f6212 !important;
+  font-size: 15px !important;
+  padding: 14px 16px !important;
 }
 input {
   line-height: normal;
@@ -131,6 +135,7 @@ input[type="submit"] {
   cursor: pointer;
   appearance: button;
   -webkit-appearance: button;
+  padding: 10px 20px !important;
 }
 input[type="checkbox"],
 input[type="radio"] {
@@ -168,7 +173,7 @@ fieldset {
 /* Typography */
 a,
 .link {
-  color: #0072bc;
+  color: #060606;
   text-decoration: none;
   display: inline;
   margin-bottom: 1px;
@@ -180,9 +185,9 @@ a:hover,
   cursor: pointer;
 }
 h1 {
-  color: #00aeef;
+  color: #080808;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 32px;
 }
 h3 {
   font-size: 16px;
@@ -363,10 +368,11 @@ h2,
 /* blue button is open new ticket */
 
 #gradient-green-title {
-  font-family: Arial, sans-serif;
-  font-size: 1.4rem;
+  font-family: caladea;
+  font-size: 32px;
   font-weight: bold;
-  background: linear-gradient(to right, #05ac54, #015b2d);
+  background:#1f2937;
+  /* background: linear-gradient(to right, #05ac54, #015b2d); */
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -499,7 +505,7 @@ font-weight: 500;
   font-size: 14px;
   display: inline-block;
   /* margin: 0rem 1rem; */
-  color: black;
+  color: #4d7c0f !important;
   text-decoration: none;
 }
 
@@ -522,7 +528,7 @@ font-weight: 500;
   background-color: #4d7c0f;
   color: white;
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 14px;
   border-radius: 999px;
   font-weight: 600;
   text-transform: capitalize;
@@ -535,7 +541,7 @@ font-weight: 500;
   align-items: center;
   width: 36px;
   height: 36px;
-  background-color: #28a745;
+  background-color: #4d7c0f;
   color: white !important;
   font-size: 0.85em;
   border-radius: 50%;
@@ -651,13 +657,14 @@ font-weight: 500;
   height: auto !important;
   height: 350px;
   min-height: 350px;
-  padding-top: 1.2rem;
+  padding: 1.2rem 80px;
   flex: 1;
 }
 #content > h1 {
-  color: #00a651;
+  color: #4d7c0f;
   font-weight: 600;
   text-decoration: underline;
+  font-family: Caladea;
 }
 #footer {
   text-align: center;
@@ -876,10 +883,10 @@ font-weight: 500;
   padding-right: 5rem;
 }
 .ticke_submit_open_ticket {
-  background-color: #00a651;
+  background-color: #4d7c0f;
   color: white;
   border: none;
-  padding: 10px 30px;
+  padding: 10px 20px;
   border-radius: 999px;
   font-weight: bold;
   cursor: pointer;
@@ -910,9 +917,13 @@ span.required {
 #ticketForm div textarea,
 #clientLogin div textarea {
   width: auto;
-  border: 1px solid #aaa;
+  /* border: 1px solid #aaa; */
   background: #fff;
   display: block;
+  color: #3f6212b3 !important;;
+  border: 1px solid #3f6212 !important;
+  font-size: 15px !important;
+  padding: 14px 16px !important;
 }
 #ticketForm div input[type="file"],
 #clientLogin div input[type="file"] {
@@ -1047,6 +1058,7 @@ span.required {
 }
 #reply {
   margin-top: 5px;
+  margin-bottom: 30px;
   padding: 10px;
   background: #f9f9f9;
   border: 1px solid #ccc;
@@ -1165,7 +1177,7 @@ span.required {
   border-right: none;
   border-left: none;
   border-top: none;
-  font-size: 16px;
+  font-size: 14px;
   color: #495057;
   vertical-align: middle;
   line-height: 1.2;
@@ -1548,10 +1560,10 @@ img.avatar {
   color: #3f6212;
 }
 .thread-body > h1 {
-  font-family: -apple-system, BlinkMacSystemFont, "caladea"!important;
-  font-size: 2.2rem !important;
-  font-weight: 600;
-  background: linear-gradient(to right, #65a30d, #65a30d);
+  font-family: "caladea" !important;
+  font-size: 32px !important;
+  font-weight: 700;
+  background: linear-gradient(to right, #1a2e05, #1a2e05);
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -1981,9 +1993,9 @@ font-weight: 500;
 
 .search.well input[type="text"] {
   width: 300px; /* Match original size (approximated from size="30") */
-  padding: 8px 10px;
-  font-size: 14px;
-  border-radius: 16px; /* Consistent with .search-form .search */
+  padding: 14px 16px;
+  font-size: 15px;
+  border-radius: 999px; /* Consistent with .search-form .search */
   border: 1px solid #ccc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-sizing: border-box;
@@ -1991,11 +2003,11 @@ font-weight: 500;
 }
 
 .search.well input[type="submit"] {
-  padding: 8px 16px;
-  font-size: 14px;
-  border-radius: 16px;
-  background-color: #28a745;
-  color: #fff;
+  padding: 14px 16px;
+  font-size: 15px;
+  border-radius: 999px;
+  background-color: #4d7c0f;
+  color: #fff !important;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -2003,7 +2015,7 @@ font-weight: 500;
 }
 
 .search.well input[type="submit"]:hover {
-  background-color: #218838;
+  background-color: #4d7c0f;
 }
 
 .search.well .pull-right {
@@ -2019,9 +2031,9 @@ font-weight: 500;
 
 .search.well select {
   width: 200px; /* Reduced from 410px for better fit */
-  padding: 7px 8px; /* Adjust padding to match input height */
-  font-size: 14px;
-  border-radius: 16px;
+  padding: 14px 16px; /* Adjust padding to match input height */
+  font-size: 15px;
+  border-radius: 999px;
   border: 1px solid #ccc;
   box-sizing: border-box;
   vertical-align: middle;
