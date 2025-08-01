@@ -41,14 +41,14 @@
             <!-- Logo & Description -->
             <div style="min-width: 280px;">
                 <!-- Logo with geometric design -->
-                <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;font-size:16px;">
                     <!-- <img src="assets/default/images/logo.png" alt="TGDeX Logo" style="height: 36px; margin-right: 12px;"> -->
                      <!-- <a class="pull-left" id="logo" href="https://dev.catalogue.forest.iudx.io/" title="<?php echo __('Support Center'); ?>">
                             <!-- <span class="valign-helper"></span>
                             <img src="<?php echo ROOT_PATH ?>assets/default/images/forest-logo.svg" class="tg_govt_header">
                         </a> -->
                         <div class="logo_title">
-                            <p style="font-weight:700;color:#a3e635;" class="">Forest Stack | Rajasthan</p>
+                            <p style="font-weight:700;color:#a3e635;font-family:'caladea';" class="">Forest Stack | Rajasthan</p>
                             <!-- <p style="font-weight:500" class=""></p> -->
                         </div>
                     <!-- <div style="color: #00b359; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;">TGDeX</div> -->
@@ -60,7 +60,7 @@
 
                 <!-- Social Media Section -->
                 <div>
-                    <h3 style="color: #a3e635; font-size: 20px; font-weight: 500; margin-bottom: 1rem; letter-spacing: -0.3px;">Social Media</h3>
+                    <h3 style="color: #a3e635; font-size: 16px;font-family:'caladea'; font-weight: 500; margin-bottom: 1rem; letter-spacing: -0.3px;">Social Media</h3>
                     <div style="display: flex; gap: 2rem;">
                         <a href="https://www.facebook.com/etgots/"><img src="assets/default/images/icons/meta-icon.png" alt="Meta" style="width:22px; height: 22px;"></a>
                         <a href="https://x.com/emergingtechts"><img src="assets/default/images/icons/twitter-icon.png" alt="X" style="width: 18px; height: 18px;"></a>
@@ -72,7 +72,7 @@
 
             <!-- TGDeX Links -->
             <div>
-                <h3 style="color: #a3e635;font-size: 25px;font-weight: 700; margin-bottom: 1.5rem; letter-spacing: -0.3px;">Forest Stack</h3>
+                <h3 style="color: #a3e635;font-size: 16px;font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.3px;font-family:'caladea';">Forest Stack</h3>
                 <ul style="list-style: none; padding: 0; margin: 0;">
                     <li style="margin-bottom: 0.75rem;">
                         <a href="https://tgdex.telangana.gov.in/" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Home</a>
@@ -88,7 +88,7 @@
 
             <!-- Platform Features -->
             <div>
-                <h3 style="color: #a3e635;font-size: 25px;font-weight: 700; margin-bottom: 1.5rem; letter-spacing: -0.3px;">Platform Features</h3>
+                <h3 style="color: #a3e635;font-size: 16px;font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.3px;font-family:'caladea';">Platform Features</h3>
                 <ul style="list-style: none; padding: 0; margin: 0;">
                     <li style="margin-bottom: 0.75rem;">
                         <a href="https://tgdex.telangana.gov.in/data-bank" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Data Banks</a>
@@ -113,7 +113,7 @@
 
             <!-- Help & Support -->
             <div>
-                <h3 style="color: #a3e635;font-size: 25px;font-weight: 700; margin-bottom: 1.5rem; letter-spacing: -0.3px;">Help & Support</h3>
+                <h3 style="color: #a3e635;font-size: 16px;font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.3px;font-family:'caladea';">Help & Support</h3>
                 <ul style="list-style: none; padding: 0; margin: 0;">
                     <li style="margin-bottom: 0.75rem;">
                         <a href="https://helpdesk.tgdex.telangana.gov.in/" style="color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#fff'">Help & Support</a>
