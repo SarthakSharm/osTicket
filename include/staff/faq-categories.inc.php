@@ -16,7 +16,7 @@ if (!defined('OSTSTAFFINC') || !$thisstaff) die('Access Denied');
             </button>
         </div>
 
-        <div class="pull-right">
+        <div class="pull-right" style="padding-top:25px;">
             <span class="action-button muted" data-dropdown="#category-dropdown">
                 <i class="icon-caret-down pull-right"></i>
                 <span>

@@ -141,7 +141,7 @@ if (count($langs) > 1) { ?>
         <span class="error">*</span>
         <div class="faded"><?php echo __('Short descriptive name.');?></div>
     </div>
-    <input type="text" size="70" style="font-size:110%;width:100%;box-sizing:border-box"
+    <input type="text" size="70" style="font-size:110%;width:auto;box-sizing:border-box"
         name="<?php echo $cname; ?>" value="<?php echo $category; ?>">
     <div class="error"><?php echo $errors['name']; ?></div>
 
@@ -152,7 +152,7 @@ if (count($langs) > 1) { ?>
         <div class="error"><?php echo $errors['description']; ?></div>
     </div>
     <textarea class="richtext" name="<?php echo $dname; ?>" cols="21" rows="12"
-        style="width:100%;"><?php
+        style="width:auto;"><?php
         echo Format::viewableImages($desc); ?></textarea>
     </div>
 <?php } ?>

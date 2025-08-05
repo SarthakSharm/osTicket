@@ -62,7 +62,7 @@ $query = "$select $from $where ORDER BY $order_by LIMIT " . $pageNav->getStart()
 </div>
 <div class="clear"></div>
 <form action="banlist.php" method="POST" name="banlist">
-    <div style="margin-bottom:20px; padding-top:5px;">
+    <div style="margin-bottom:20px; padding-top:25px;">
         <div class="sticky bar opaque">
             <div class="content">
                 <div class="pull-left flush-left">

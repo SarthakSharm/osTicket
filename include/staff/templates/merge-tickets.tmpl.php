@@ -173,7 +173,7 @@ foreach ($tickets as $t) {
     </label>
 </div>
 <br/><br/>
-<div id="child-status">
+<div id="child-status" style="padding-top: 20px;">
 &nbsp;&nbsp;&nbsp;
     <label class="inline checkbox">
         <?php echo __('Child Status');?>
