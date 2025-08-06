@@ -72,7 +72,7 @@ $orgs->order_by($order . $order_column);
         </form>
     </div>
 </div>
-<div style="margin-bottom:20px; padding-top:5px;">
+<div style="margin-bottom:20px; padding-top:25px;">
     <div class="sticky bar opaque">
         <div class="content">
             <div class="pull-left flush-left">

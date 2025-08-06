@@ -110,7 +110,7 @@ else
 </div>
 <div class="clear"></div>
 <form action="logs.php" method="POST" name="logs">
-    <div style="margin-bottom:20px; padding-top:5px;">
+    <div style="margin-bottom:20px; padding-top:25px;">
         <div class="sticky bar opaque">
             <div class="content">
                 <div class="pull-left flush-left">
