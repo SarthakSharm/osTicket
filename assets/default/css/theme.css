@@ -201,11 +201,11 @@ h2,
 .centered {
   text-align: center;
 }
-.clear {
+/* .clear {
   clear: both;
   height: 1px;
   visibility: none;
-}
+} */
 .hidden {
   display: none;
 }
@@ -398,7 +398,7 @@ body {
   /* background: url("../images/tgdex_bg.png") top left repeat-x; */
 }
 #container {
-  /* background: #fff; */
+  background: #1A2E05;
   /* max-height: 80vh; */
   overflow: auto;
   height: 100vh;
@@ -653,12 +653,13 @@ font-weight: 500;
 } */
 #content {
   /* padding: 20px 0; */
-  margin: 0 20px;
+  /* margin: 0 20px; */
   height: auto !important;
   height: 350px;
   min-height: 350px;
   padding: 1.2rem 80px;
   flex: 1;
+  background: white;
 }
 #content > h1 {
   color: #4d7c0f;
