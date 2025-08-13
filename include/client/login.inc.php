@@ -16,9 +16,9 @@ if ($content) {
 }
 
 ?>
-<h1><?php echo Format::display($title); ?></h1>
-<p><?php echo Format::display($body); ?></p>
-<form action="login.php" method="post" id="clientLogin">
+<h1 style="margin-top: 12px;margin-left:75px;"><?php echo Format::display($title); ?></h1>
+<p style="margin-left: 75px;"><?php echo Format::display($body); ?></p>
+<form action="login.php" method="post" id="clientLogin" style="margin-left: 75px;">
     <?php csrf_token(); ?>
     <div class="login-wrapper" style="">
         <div class="login-box">
@@ -86,7 +86,7 @@ if ($content) {
     </div>
 </form>
 <br>
-<p style="padding-bottom: 20px;">
+<p style="padding-bottom: 20px;margin-left: 75px;"">
     <?php
     if (
         $cfg->getClientRegistrationMode() != 'disabled'
