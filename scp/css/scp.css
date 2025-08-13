@@ -47,6 +47,7 @@ html {
   font-size: 14px;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .link,
@@ -2826,6 +2827,7 @@ time.faq {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .dialog {
@@ -2843,12 +2845,15 @@ time.faq {
   max-height: 72%;
   min-height: 50px;
   overflow-y: auto;
+  scroll-behavior: smooth !important;
 }
 .dialog .table td:not(:empty) {
   background-color: #f8f8f8 !important;
+  scroll-behavior: smooth;
 }
 .dialog#popup {
   width: 650px;
+  scroll-behavior: smooth;
 }
 
 .dialog.size-normal {

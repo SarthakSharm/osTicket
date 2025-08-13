@@ -39,7 +39,77 @@
   font-style: italic;
 }
 
+.banner-container{
+  position: relative;
+    width: 100%;
+    height: 812px;
+    color: #1a2e05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.banner-content{
+  width: 100%;
+        max-width: 100%;
+        min-height: 80vh;
+        display: flex;
+        flex: 1;
+        padding: 0;
+}
+.banner-content-left-section{
+  width: 50%;
+        padding-left: 80px;
+        position:relative;
+        z-index: 10;
+        /* background: url("<?php echo ROOT_PATH ?>assests/images/background.png"); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        align-items: start;
+        margin-right: 80px;
+        text-align: left !important;
 
+}
+.banner-content-left-section h1{
+                font-size: 48px !important;
+                font-weight:700;
+                font-family: caladea !important;
+                line-height:1.2;
+        margin-bottom: 0 !important;
+            }
+.agricultural-text{
+  color: #65a30d;
+    font-family: caladea !important;
+    margin-top: -7px !important;
+    font-size: 48px;
+        margin-bottom: 0 !important;
+        font-weight:700;
+}
+.description{
+  max-width: 500px;
+  margin-bottom: 24px !important;
+    margin-top: 16px !important;
+    color: #3f6212;
+    font-size: 20px !important;
+        font-weight: 500;
+}
+.banner-content-right-section{
+  background-size: cover;
+        background-position: center;
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        align-items: start;
+        /* padding-right: 80px; */
+}
 html {
   font-size: 100%;
   /* overflow-y: scroll; */
@@ -47,7 +117,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  padding-top: 100px;
+  padding-top: 70px;
   margin: 0;
   font-size: 14px;
   line-height: 1.231;
@@ -432,7 +502,8 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background:linear-gradient(180deg, rgba(247, 254, 231, .7) 0%, rgba(247, 254, 231, 0) 100%), #fff;
   /* border-bottom: 1px solid #c2c2c2; */
   padding: 14px 77px;
   display: flex;
@@ -657,7 +728,7 @@ font-weight: 500;
   height: auto !important;
   height: 350px;
   min-height: 350px;
-  padding: 1.2rem 80px;
+  padding: 0 50px;
   flex: 1;
   background: white;
 }
@@ -1715,6 +1786,16 @@ img.avatar {
 }
 /* Make header items stack vertically on small screens */
 @media (max-width: 768px) {
+  #content {
+  /* padding: 20px 0; */
+  /* margin: 0 20px; */
+  height: auto !important;
+  height: 350px;
+  min-height: 350px;
+  padding: 0 10px;
+  flex: 1;
+  background: white;
+}
   .sidebar_home {
     width: 100%;
   }
