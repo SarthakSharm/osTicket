@@ -159,7 +159,7 @@ $tickets->values(
 );
 
 ?>
-<div class="search well">
+<div class="search well" style="padding: 20px;margin: 12px 0px;">
     <div class="flush-left">
         <form action="tickets.php" method="get" id="ticketSearchForm">
             <div id="inputGroup">
@@ -196,7 +196,7 @@ $tickets->values(
 </div>
 
 
-<h1 style="padding:10px 1rem;">
+<h1 style="padding:10px 3rem;">
     <a href="<?php echo Http::refresh_url(); ?>" style="font-family: caladea;font-size: 32px;"><i class="refresh icon-refresh"></i>
         <?php echo __('Tickets'); ?>
     </a>
@@ -271,7 +271,7 @@ $tickets->values(
                     $thisclient->getId() != $T['user_id'] ? $isCollab = true : $isCollab = false;
             ?>
                     <tr id="<?php echo $T['ticket_id']; ?>">
-                        <td data-label="Ticket">
+                        <td data-label="Ticket" >
                             <a style="color:black; text-decoration:underline" class="Icon <?php echo strtolower($T['source']); ?>Ticket" title="<?php echo $T['user__default_email__address']; ?>" href="tickets.php?id=<?php echo $T['ticket_id']; ?>"><?php echo $ticketNumber; ?></a>
                         </td>
                         <td data-label="Create Date"><?php echo Format::date($T['created']); ?></td>
