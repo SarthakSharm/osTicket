@@ -150,7 +150,7 @@ if ($search->isSaved()) { ?>
         <input type="button"  style="margin-bottom: 1.5rem;" id="cancelButton" name="cancel"  class="close" value="<?php echo __('Cancel'); ?>">
         <?php
         if ($search->isSaved()) { ?>
-        <input type="button" name="done" class="done" value="<?php echo
+        <input type="button" style="margin-bottom: 1.5rem;" name="done" class="done" value="<?php echo
             __('Done'); ?>" >
         <?php
         } ?>

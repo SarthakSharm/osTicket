@@ -27,10 +27,10 @@ require(CLIENTINC_DIR . 'header.inc.php');
     width: 100%;
     background: #ffffff;
     border-bottom: 1px solid #e0e0e0;
-    padding: 0 20px 20px 0 !important;
+    /* padding: 0 20px 20px 0 !important; */
     box-sizing: border-box;
     position: relative;
-    z-index: 1000;
+    z-index: 999;
     clear: both;
     overflow: hidden;
 " class="header_wrapper">
@@ -71,7 +71,7 @@ require(CLIENTINC_DIR . 'header.inc.php');
                 align-items: center !important;
                 margin-top: 10px !important;
                 text-align: center;
-                margin-top: 5rem !important;
+                margin-top: 0   rem !important;
             }
 
             .tgdex_text {
@@ -79,7 +79,9 @@ require(CLIENTINC_DIR . 'header.inc.php');
             }
 
             .tgdex_wrapper img {
-                height: 45px !important;
+                height: 328px !important;
+                width:auto;
+                
             }
 
             .seal_wrapper,
@@ -108,15 +110,59 @@ require(CLIENTINC_DIR . 'header.inc.php');
             }
 
             .blue.button {}
+
+
+            .banner-container {
+                background-size: cover;
+                background-position: center;
+                height: 1187px;
+            }
+
+            .banner-content {
+                max-width: 688px;
+                display:flex;
+                flex-direction: column;
+            }
+
+            .banner-content-left-section {
+                /* text-align: center !important; */
+
+                padding: 20px !important;
+        width: 100%;
+        margin-right: 0;
+            }
+
+            .banner-content-left-section h1 {
+                font-size: 30px !important;
+                letter-spacing: .32px;
+                
+            }
+            .agricultural-text{
+                font-size: 30px !important;
+        letter-spacing: .32px;
+            }
+            .description{
+                font-size: 16px !important;
+        font-weight: 500;
+                }
+                .banner-content-right-section{
+                    background-size: cover !important;
+        background-position: center !important;
+        min-height: 334px !important;
+        /* margin-top: 32px !important; */
+        margin-right:0;
+        /* padding-bottom: 72px !important; */
+        width:100%;
+                }
         }
     </style>
 
     <div style="max-width: 100%; display: flex; flex-direction: column; gap: 15px;">
 
-        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;" class="top_icons_wrapper">
+        <!-- <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;" class="top_icons_wrapper"> -->
 
-            <!-- Chief Minister Card - Left Side -->
-            <div style="display: flex; align-items: center; gap: 10px; background: #ffffff; padding: 0.25rem 0.5rem; padding-right: 1.5rem; border-radius: 40px; border: 1px solid #d8b167; white-space: nowrap; margin-left: 1rem" class="minister_card cm_card">
+        <!-- Chief Minister Card - Left Side -->
+        <!-- <div style="display: flex; align-items: center; gap: 10px; background: #ffffff; padding: 0.25rem 0.5rem; padding-right: 1.5rem; border-radius: 40px; border: 1px solid #d8b167; white-space: nowrap; margin-left: 1rem" class="minister_card cm_card">
                 <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; flex-shrink: 0;" class="minister_img_wrapper">
                     <img src="../assets/default/images/honcm.svg" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
@@ -124,10 +170,10 @@ require(CLIENTINC_DIR . 'header.inc.php');
                     <div style="font-size: 13px; color: #000; font-weight: 700; margin: 0 0 2px 0; line-height: 1; padding-bottom: 0.25rem;font-family: sans-serif">Sri Anumula Revanth Reddy</div>
                     <div style="font-size: 13px; color: #333; margin: 0; font-weight: 400; line-height: 1.2;">Hon'ble Chief Minister</div>
                 </div>
-            </div>
+            </div> -->
 
-            <!-- IT Minister Card - Right Side -->
-            <div style="display: flex; align-items: center; gap: 10px; background: #ffffff; padding: 0.25rem 0.5rem; padding-right: 0.5rem; border-radius: 40px; border: 1px solid #d8b167;" class="minister_card it_card">
+        <!-- IT Minister Card - Right Side -->
+        <!-- <div style="display: flex; align-items: center; gap: 10px; background: #ffffff; padding: 0.25rem 0.5rem; padding-right: 0.5rem; border-radius: 40px; border: 1px solid #d8b167;" class="minister_card it_card">
                 <div style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; flex-shrink: 0;" class="minister_img_wrapper">
                     <img src="../assets/default/images/itmin.svg" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
@@ -139,13 +185,45 @@ require(CLIENTINC_DIR . 'header.inc.php');
                         </p>
                     </div>
                 </div>
+            </div> -->
+
+        <!-- </div> -->
+
+        <!-- <div style="display: flex; align-items: center; justify-content: center; gap: 12px; min-width: 300px; margin-top: 2rem; padding-top: 1rem;" class="tgdex_wrapper"> -->
+            <!-- <img src="../assets/default/images/logo.png" style="height: 36px;"> -->
+            <!-- <a class="pull-left" id="logo" href="https://dev.catalogue.forest.iudx.io/" title="<?php echo __('Support Center'); ?>">
+                            <span class="valign-helper"></span>
+                            <img style="height: 4rem !important;"src="<?php echo ROOT_PATH ?>assets/default/images/forest-logo.svg" class="tg_govt_header" >
+                        </a> -->
+            <!-- <div class="logo_title">
+                            <p style="font-weight:700" class="logo_title_name">Forest Stack</p>
+                            <p style="font-weight:500" class="logo_title_department">Rajasthan</p>
+                        </div> -->
+            <!-- <div style="font-size: 48px; color: #1a2e05;font-family: 'Caladea, serif !important';font-weight: 700; margin-left: 5px; padding-bottom: 0.6rem;" class="tgdex_text">Forest Stack | Rajasthan</div> -->
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 12px; min-width: 300px; " class="tgdex_wrapper">
+
+            <div class="banner-content">
+                <div class="banner-content-left-section"style="background-image:url(<?php echo ROOT_PATH; ?>assets/default/images/background.png)">
+                    <!-- <div class="notification">
+                    <span class="notification-content">
+                        <span>Forest Stack open Innnovation Challenge is live!</span>
+
+                    </span>
+                </div> -->
+                <!-- <img src="<?php echo ROOT_PATH; ?>assets/default/images/background.png" alt="background" style="position:absolute;width:auto;height:auto;z-index:-1;"> -->
+                    <h1 style="margin-bottom:0 !important;font-weight: 700;color: #1a2e05;letter-spacing:0.32px;">Powering Forest &</h1>
+                    <h1 style="margin-top:0;margin-bottom:0 !important;font-weight: 700;color: #1a2e05;letter-spacing:0.32px;">Wildlife Conservation</h1>
+                    <h1 style="color: #65a30d;margin-top:0 !important;font-weight:700;" class="agriculture-text">with Smart, Secure Data</h1>
+                    <p style="font-weight: 500;"class="description">
+                        Forest Stack is a secure data exchange network by the Rajasthan Forest Department for wildlife researchers, innovators, and conservationists.
+                    </p>
+
+                </div>
+                <div class="banner-content-right-section">
+                    <img src="<?php echo ROOT_PATH ?>assets/default/images/banner-image.png" alt="">
+                </div>
+
             </div>
-
-        </div>
-
-        <div style="display: flex; align-items: center; justify-content: center; gap: 12px; min-width: 300px; margin-top: 2rem; padding-top: 1rem;" class="tgdex_wrapper">
-            <img src="../assets/default/images/logo.png" style="height: 36px;">
-            <div style="font-size: 36px; color: #212529; font-weight: 400; margin-left: 5px; padding-bottom: 0.6rem;" class="tgdex_text">Telangana Data Exchange</div>
         </div>
 
     </div>
@@ -173,7 +251,7 @@ require(CLIENTINC_DIR . 'header.inc.php');
             if ($cfg && ($page = $cfg->getLandingPage()))
                 echo $page->getBodyWithImages();
             else
-                echo  '<h1>' . __('Welcome to the Support Center') . '</h1>';
+                echo  '<h1 >' . __('Welcome to the Support Center') . '</h1>';
             ?>
         </div>
     </div>

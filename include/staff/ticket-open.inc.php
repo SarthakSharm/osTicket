@@ -60,7 +60,7 @@ if ($_POST)
  <?php csrf_token(); ?>
  <input type="hidden" name="do" value="create">
  <input type="hidden" name="a" value="open">
-<div style="margin-bottom:20px; padding-top:5px;">
+<div style="margin-bottom:20px; padding-top:25px;">
     <div class="pull-left flush-left">
         <h2><?php echo __('Open a New Ticket');?></h2>
     </div>

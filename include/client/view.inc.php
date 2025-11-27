@@ -56,17 +56,17 @@ if (
             <td colspan="2" width="100%">
                 <h1 style="color: black;">
                     <a href="tickets.php?id=<?php echo $ticket->getId(); ?>" title="<?php echo __('Reload'); ?>"><i class="refresh icon-refresh"></i></a>
-                    <b>
+                    <b style="font-family: 'Caladea' !important;">
                         <?php $subject_field = TicketForm::getInstance()->getField('subject');
                         echo $subject_field->display($ticket->getSubject()); ?>
                     </b>
                     <small>#<?php echo $ticket->getNumber(); ?></small>
                     <div class="pull-right">
-                        <a class="action-button" style="all: unset; display: inline-flex !important; align-items: center !important; gap: 4px !important; background-color: #197a56 !important; color: white !important; padding: 4px 10px !important; border-radius: 4px !important; font-size: 14px !important; font-weight: 500 !important; font-family: 'Segoe UI', sans-serif !important; cursor: pointer !important; text-decoration: none !important; line-height: 1.2 !important;" href="tickets.php?a=print&id=<?php echo $ticket->getId(); ?>">
+                        <a class="action-button" style="all: unset; display: inline-flex !important; align-items: center !important; gap: 4px !important; background-color: #4d7c0f !important; color: white !important; padding: 4px 10px !important; border-radius: 4px !important; font-size: 14px !important; font-weight: 500 !important; font-family: 'Segoe UI', sans-serif !important; cursor: pointer !important; text-decoration: none !important; line-height: 1.2 !important;" href="tickets.php?a=print&id=<?php echo $ticket->getId(); ?>">
                             <i class="icon-print"></i> <?php echo __('Print'); ?>
                         </a>
                         <?php if ($ticket->hasClientEditableFields() && $thisclient->getId() == $ticket->getUserId()) { ?>
-                            <a class="action-button" style="all: unset; display: inline-flex !important; align-items: center !important; gap: 4px !important; background-color: #197a56 !important; color: white !important; padding: 4px 10px !important; border-radius: 4px !important; font-size: 14px !important; font-weight: 500 !important; font-family: 'Segoe UI', sans-serif !important; cursor: pointer !important; text-decoration: none !important; line-height: 1.2 !important;" href="tickets.php?a=edit&id=<?php echo $ticket->getId(); ?>">
+                            <a class="action-button" style="all: unset; display: inline-flex !important; align-items: center !important; gap: 4px !important; background-color: #4d7c0f !important; color: white !important; padding: 4px 10px !important; border-radius: 4px !important; font-size: 14px !important; font-weight: 500 !important; font-family: 'Segoe UI', sans-serif !important; cursor: pointer !important; text-decoration: none !important; line-height: 1.2 !important;" href="tickets.php?a=edit&id=<?php echo $ticket->getId(); ?>">
                                 <i class="icon-edit"></i> <?php echo __('Edit'); ?>
                             </a>
                         <?php } ?>
@@ -224,8 +224,8 @@ if (
                 </div>
             <?php } ?>
             <p style="text-align:center">
-                <input type="submit" style="background-color: #00a651; color: white;" value="<?php echo __('Post Reply'); ?>">
-                <input type="reset" id="resetButton" style="background-color: #ff4d4d; color: white" value="<?php echo __('Reset'); ?>">
+                <input type="submit" style="background-color: #4d7c0f;color: white !important" value="<?php echo __('Post Reply'); ?>">
+                <input type="reset" id="resetButton" style="background-color: #ff4d4d; color: white !important" value="<?php echo __('Reset'); ?>">
                 <input type="button" id="cancelButton" style="background-color: #ffffff; border-color: #000000;" value="<?php echo __('Cancel'); ?>" onClick="history.go(-1)">
             </p>
         </form>

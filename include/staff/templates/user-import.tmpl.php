@@ -33,7 +33,7 @@ if ($org_id) { ?>
 'Enter one name and email address per line.'); ?><br/><em><?php echo __(
 'To import more other fields, use the Upload tab.'); ?></em>
 </p>
-<textarea name="pasted" style="display:block;width:100%;height:8em"
+<textarea name="pasted" style="display:block;width:100%;height:8em;padding: 14px 50px;"
     placeholder="<?php echo __('e.g. John Doe, john.doe@osticket.com'); ?>">
 <?php echo $info['pasted']; ?>
 </textarea>

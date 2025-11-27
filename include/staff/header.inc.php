@@ -29,6 +29,10 @@ if (!isset($_SERVER['HTTP_X_PJAX'])) { ?>
             <meta http-equiv="pragma" content="no-cache" />
             <meta http-equiv="x-pjax-version" content="<?php echo GIT_VERSION; ?>">
             <title><?php echo Format::htmlchars($title); ?></title>
+            <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+</style>
+
             <!--[if IE]>
     <style type="text/css">
         .tip_shadow { display:block !important; }
@@ -53,8 +57,8 @@ if (!isset($_SERVER['HTTP_X_PJAX'])) { ?>
             <link type="text/css" rel="stylesheet" href="<?php echo ROOT_PATH; ?>css/rtl.css" />
             <link type="text/css" rel="stylesheet" href="<?php echo ROOT_PATH ?>scp/css/translatable.css" />
             <!-- Favicons -->
-            <link rel="icon" type="image/png" href="<?php echo ROOT_PATH ?>images/tgdex_favicon.png" sizes="32x32" />
-            <link rel="icon" type="image/png" href="<?php echo ROOT_PATH ?>images/tgdex_favicon.png" sizes="16x16" />
+            <link rel="icon" type="image/png" href="<?php echo ROOT_PATH ?>assets/default/images/forest-logo.svg" sizes="32x32" />
+            <!-- <link rel="icon" type="image/png" href="<?php echo ROOT_PATH ?>images/tgdex_favicon.png" sizes="16x16" /> -->
 
             <?php
             if ($ost && ($headers = $ost->getExtraHeaders())) {
@@ -93,11 +97,15 @@ if (!isset($_SERVER['HTTP_X_PJAX'])) { ?>
                         </div>
                     </div>
                     <div class="logo_container_header">
-                        <a class="pull-left" style="" id="logo" href="https://tgdex.telangana.gov.in/" title="<?php echo __('Support Center'); ?>">
+                        <a class="pull-left" id="logo" href="https://dev.catalogue.forest.iudx.io/" title="<?php echo __('Support Center'); ?>">
                             <span class="valign-helper"></span>
-                            <img src="/osTicket/assets/default/images/TelenganaGovt-logo.svg" class="tg_govt_header">
+                            <img src="<?php echo ROOT_PATH ?>assets/default/images/forest-logo.svg" class="tg_govt_header">
                         </a>
-                        <span class="tg_short_logo_header">
+                        <div class="logo_title">
+                            <p class="logo_title_name">Forest Stack</p>
+                            <p class="logo_title_department">Rajasthan</p>
+                        </div>
+                        <!-- <span class="tg_short_logo_header">
                             <a href="<?php echo ROOT_PATH ?>scp/index.php" class="no-pjax" id="logo">
                                 <span class="valign-helper"></span>
                                 <img style="width:auto;height:2rem;" src="<?php echo ROOT_PATH ?>logo.php?<?php echo strtotime($cfg->lastModified('staff_logo_id')); ?>" alt="osTicket &mdash; <?php echo __('Customer Support System'); ?>" />
@@ -108,7 +116,7 @@ if (!isset($_SERVER['HTTP_X_PJAX'])) { ?>
                                 <span class="valign-helper"></span>
                                 <img style="width:auto;height:2rem;" src="<?php echo ROOT_PATH ?>logo.php?<?php echo strtotime($cfg->lastModified('staff_logo_id')); ?>" alt="osTicket &mdash; <?php echo __('Customer Support System'); ?>" />
                             </a>
-                        </span>
+                        </span> -->
                     </div>
                 </div>
                 <div id="pjax-container" class="<?php if ($_POST) echo 'no-pjax'; ?>">

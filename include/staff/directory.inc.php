@@ -107,7 +107,7 @@ $qstr .= '&amp;order=' . ($order == 'DESC' ? 'ASC' : 'DESC');
     </div>
 </div>
 <div class="clear"></div>
-<div style="margin-bottom:20px; padding-top:5px;">
+<div style="margin-bottom:20px; padding-top:25px;">
     <div class="pull-left flush-left">
         <h2><?php echo __('Agents'); ?>
             &nbsp;<i class="help-tip icon-question-sign" href="#staff_members"></i>
